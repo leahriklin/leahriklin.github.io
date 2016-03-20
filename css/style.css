@@ -1,0 +1,582 @@
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: white;
+    opacity:.4;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    /*color: #009688;*/ /*#4DB6AC */
+    opacity: .6;
+    color: white;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+   /* position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;*/
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    opacity: .9;
+}
+.btn-xl {
+    padding: 16px 24px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing:1.5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    background-color: #FFC800;
+    border-radius: 6px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #FFC800; /*#009688*/
+        /*-webkit-transition: all ease .1s;
+    -moz-transition: all ease .1s;
+    transition: all ease .1s;*/
+    font-size: 20px;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+    background-color: inherit;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #FFC800;
+}
+
+.btn-xl .badge {
+    color: #FFC800;
+    background-color: #fff;
+}
+
+/*.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+} */
+
+.nav .page-scroll {
+    font-family: 'Lato', sans-serif; 
+    opacity: 1;
+}
+
+/*NAVBAR HOVER COLOR*/
+body > .navbar-collapse .nav > li > a:hover, body > .navbar-collapse .nav > li > a.active {
+  color: #FFC800;
+  font-size: 15px;
+}
+
+
+/*ALIGN DROPDOWN SOCIAL ICONS with margin-left*/
+body > .navbar-collapse .nav > li.social-links {
+  text-align: center;
+  margin-left: 0px;
+}
+
+body > .navbar-collapse {
+    text-align: center;
+    padding-right: 15px; 
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 260px;
+}
+
+
+.nav i {
+    opacity: 1;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:2px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    font-size: 28px;
+}
+
+
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #FFC800;
+ /*   -webkit-transition: all ease .1s;
+    -moz-transition: all ease .1s;
+    transition: all ease .1s;*/
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FFC800;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #FFC800;
+}
+
+/* DO I NEED THIS? IS THIS FOR RESPONSIVENESS?
+@media(max-width:480px){
+    .hider{
+        display:none;
+    }
+}
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        display:none;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1em;
+        display:inline;
+    }
+}
+*/
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../imgages/bike.jpg)
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*play with this for down icon */
+header .down-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-right: 50px
+}
+
+header .intro-text {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 10px;
+    text-transform: none;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 75px;
+}
+
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 150px; /*Use this to adjust down icon on header*/
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 5px;
+        text-transform: none;
+        font-size: 80px;
+        line-height: 150px;
+        font-weight: 900;
+        letter-spacing: -3px;
+    }
+
+#hheader h2{
+    font-weight:300;
+    margin-top:0;
+    font-size:30px;
+    margin-bottom:50px; /*this will move CTA button down*/
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#hheader h1{
+    word-spacing: .1em;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+/*INDEX*/
+#hheader {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../images/bike.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#hheader .intro-text .intro-heading{
+margin-bottom:50px;
+margin-top:100px;
+font-size:100px;
+line-height:100px;
+}
+
+/*Use this to adjust down icon on header*/
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#portfolio {
+    padding-top: 120px;
+    /*background-color: #f7f7f7;*/
+}
+
+
+#portfolio h2{
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin-bottom: 70px;
+}
+
+#portfolio a {
+    color: black;
+}
+
+.row {
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+
+.row img {
+    max-width: 100%;
+}
+
+
+/*  origninal padding was 15px- this adjusts space between pictures */
+.col-xs-6 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.col-xs-6 h3 {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:1px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #FFC800;
+    color: white;
+    padding: 10px;
+    /*margin-top: ;
+    margin-bottom: ;*/
+}
+
+.col-xs-6 p {
+    font-family:'Lato', sans-serif;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+.separator-container .separator {
+  color: #4DB6AC;
+  margin: 0 auto 1em;
+  width: 11em;
+}
+
+.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
+    border-color: #4DB6AC;
+}
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #000;
+    letter-spacing:3px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size:35px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 100px 0;
+    }
+
+#about {
+    padding-top: 100px;
+    background-color: #f7f7f7;
+    
+}
+
+.team-member img{
+    border: solid 5px white;
+}
+
+section#contact {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#contact h2{
+     font-family: 'Fjalla One', sans-serif;
+}
+
+#contact h4{
+    text-transform:none;
+    color: #fff;
+    font-weight:300;
+    margin-top:50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section#contact h4 a{
+    color: #4DB6AC;
+    font-family: 'Lato', sans-serif;
+    opacity: 1;
+}
+
+section#contact h4 a:hover {
+    font-size: 24px;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #4DB6AC;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+/*    text-transform: uppercase;*/
+/*    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+/*    text-transform: uppercase;*/
+   /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #bbb;
+}
+
+
+section#contact:-ms-input-placeholder {
+/*    text-transform: uppercase;*/
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+#contact .btn-xl {
+    text-transform: none;
+
+}
+
+#contact .btn-xl i {
+    padding-right: 25px;
+
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+/*    text-transform: uppercase;*/
+    text-transform: none;
+
+    line-height: 40px;
+}
+
+.social-buttons {
+    border: none;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    margin-top: 15px
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #000;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    opacity: 1;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+
+
+
