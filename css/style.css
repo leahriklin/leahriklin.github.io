@@ -273,6 +273,8 @@ header .intro-text .intro-heading {
         letter-spacing: -3px;
     }
 
+}
+
 #hheader h2{
     font-weight:300;
     margin-top:0;
@@ -502,6 +504,7 @@ section h3.section-subheading {
     section {
         padding: 100px 0;
     }
+}
 
 #about {
     padding-top: 100px;
