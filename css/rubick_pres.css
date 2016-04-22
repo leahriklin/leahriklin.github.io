@@ -1570,6 +1570,12 @@ body > .navbar-collapse.has-image::after {
   .media-post .media-body {
     width: 100%;
   }
+
+  /*NEW STYLES*/
+  body > .navbar-collapse {
+        /*width: 200px;*/
+    }
+
 }
 @media (max-width: 768px) {
   .table-responsive {

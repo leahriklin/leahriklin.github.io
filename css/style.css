@@ -115,10 +115,12 @@ body > .navbar-collapse .nav > li.social-links {
 
 body > .navbar-collapse {
     text-align: center;
-    padding-right: 15px; 
+    /*padding-right: 15px; 
     padding-left: 15px;
-    padding-top: 15px;
-    width: 260px;
+    padding-top: 15px;*/
+/*padding: 0;*/
+padding-left: 0px;
+    /*width: 260px;*/
 }
 
 
@@ -131,7 +133,11 @@ body > .navbar-collapse {
     letter-spacing:2px;
     font-size: 24px;
     font-weight: normal;
-    line-height: normal;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     text-transform: uppercase;
 }
 
@@ -174,7 +180,8 @@ body > .navbar-collapse {
     background-color: #FFC800;
 }
 
-/* DO I NEED THIS? IS THIS FOR RESPONSIVENESS?
+/* DO I NEED THIS? IS THIS FOR RESPONSIVENESS? YES!
+
 @media(max-width:480px){
     .hider{
         display:none;
@@ -203,6 +210,41 @@ body > .navbar-collapse {
     }
 }
 */
+/*iPhone*/
+@media(max-width:480px) {
+    body > .navbar-collapse {
+        width: 229px;
+    } 
+
+    body > .navbar-collapse ul.nav.navbar-nav {
+        width: 229px;
+        left: 15px;
+    }
+
+    #hheader .intro-text .intro-heading {
+        font-size: 60px !important;
+        margin-bottom: 30px;
+    }
+
+    .mobile-width-100 {
+        width: 100%;
+    }
+
+    .team-member img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content-center {
+        display: block;
+        margin: 0 auto;   
+    }
+
+    .text-align-center {
+        text-align: center;
+        
+    }
+}
 
 
 header {
@@ -271,6 +313,10 @@ header .intro-text .intro-heading {
         line-height: 150px;
         font-weight: 900;
         letter-spacing: -3px;
+    }
+
+    body > .navbar-collapse {
+        width: 240px;
     }
 
 }
