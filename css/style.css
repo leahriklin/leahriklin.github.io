@@ -223,7 +223,8 @@ padding-left: 0px;
 
     #hheader .intro-text .intro-heading {
         font-size: 60px !important;
-        margin-bottom: 30px;
+        margin-bottom: 25px !important;
+        margin-top: 50px !important;
     }
 
     .mobile-width-100 {
@@ -242,8 +243,9 @@ padding-left: 0px;
 
     .text-align-center {
         text-align: center;
-        
+
     }
+
 }
 
 
