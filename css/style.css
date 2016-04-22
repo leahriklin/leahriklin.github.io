@@ -227,6 +227,10 @@ padding-left: 0px;
         margin-top: 50px !important;
     }
 
+    #hheader h2 {
+        font-size: 20px !important;
+    }
+
     .mobile-width-100 {
         width: 100%;
     }
